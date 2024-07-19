@@ -1,251 +1,946 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bingeverse</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Roboto', sans-serif;
-            background-color: #000;
-            color: #fff;
-        }
+<title>Movies & Webseries</title>
 
-        #title {
-            text-align: center;
-            font-size: 2em;
-            padding: 20px;
-            background-color: #20232a;
-        }
+<style>
 
-        .navigator {
-            display: flex;
-            justify-content: center;
-            background-color: #fff;
-            padding: 10px;
-        }
+a:link
+{
+  color: black;
+  text-decoration: none;
+}
 
-        .navigator a {
-            color: #000;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.2em;
-            transition: color 0.3s;
-        }
+a:visited
+{
+  color: red;
+}
 
-        .navigator a:hover {
-            color: red;
-        }
+a:hover
+{
+  color: red;
+}
 
-        .cards-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-        }
+#Title
+{
+text-align:center;
+color:white;
+font-size:30px;
+font-family:Arial;
+}
 
-        .card {
-            background-color: #fff;
-            color: #000;
-            border-radius: 10px;
-            overflow: hidden;
-            margin: 20px;
-            width: 300px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s;
-        }
+.navigator
+{
+background-color:white;
+height:30px;
+width:1525px;
+}
 
-        .card:hover {
-            transform: translateY(-10px);
-        }
+.navigator a
+{
+color:black;
+text-decoration:none;
+}
 
-        .card img {
-            width: 100%;
-            height: auto;
-        }
-
-        .card-content {
-            padding: 15px;
-        }
-
-        .card-content h3 {
-            margin: 0;
-            color: red;
-            font-size: 1.5em;
-        }
-
-        .card-content p {
-            margin: 10px 0;
-        }
-
-        .card-content a {
-            text-decoration: none;
-            color: blue;
-        }
-
-        .card-content a:hover {
-            text-decoration: underline;
-        }
-
-        .card-content .button {
-            display: inline-block;
-            padding: 10px 15px;
-            background-color: #2dba4e;
-            color: #fafbfc;
-            text-align: center;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        .card-content .button:hover {
-            background-color: #27973d;
-        }
-    </style>
+.navigator a:hover
+{
+color:red;
+}
+</style>
 </head>
-<body>
-    <div id="title"><h2><b><font color="red">BINGEVERSE</font></h2></div>
 
-    <div class="navigator">
-        <a href="Movies Section/Movies.html">Movies</a>
-        <a href="TV Shows/TV Shows.html">Web Series</a>
-        <a href="Watch/Watch.html">Watch</a>
-        <a href="Awards & Events/Awards & Events.html">Awards & Events</a>
-        <a href="Celebs/Celebs.html">Celebs</a>
-        <a href="Community/Community.html">Community</a>
-    </div>
+<div id="Title"><h2><b><font color="red">BINGEVERSE</font></h2></div>
 
-    <div class="cards-container">
-        <div class="card">
-            <img src="the_shawshank_redemption_2.jpg" alt="The Shawshank Redemption">
-            <div class="card-content">
-                <h3>The Shawshank Redemption</h3>
-                <p><b>Trailer:</b> <a href="https://youtu.be/PLl99DlL6b4" target="_blank" class="button">Watch Here</a></p>
-                <p><b>Genre:</b> Drama</p>
-                <p>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</p>
-                <p><b>Director:</b> <a href="https://en.wikipedia.org/wiki/Frank_Darabont" target="_blank">Frank Darabont</a></p>
-                <p><b>Writers:</b> <a href="https://en.wikipedia.org/wiki/Frank_Darabont" target="_blank">Stephen King</a>, <a href="https://en.wikipedia.org/wiki/Stephen_King" target="_blank">Frank Darabont</a></p>
-                <p><b>Stars:</b> <a href="https://en.wikipedia.org/wiki/Tim_Robbins" target="_blank">Tim Robbins</a>, <a href="https://en.wikipedia.org/wiki/Morgan_Freeman" target="_blank">Morgan Freeman</a>, <a href="https://en.wikipedia.org/wiki/Bob_Gunton" target="_blank">Bob Gunton</a></p>
-            </div>
-        </div>
+<div class="navigator">
+<b><font size="5">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-        <div class="card">
-            <img src="the_godfather_2.jpg" alt="The Godfather">
-            <div class="card-content">
-                <h3>The Godfather</h3>
-                <p><b>Trailer:</b> <a href="https://youtu.be/UaVTIH8mujA" target="_blank" class="button">Watch Here</a></p>
-                <p><b>Genre:</b> Crime | Drama</p>
-                <p>The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</p>
-                <p><b>Director:</b> <a href="https://en.wikipedia.org/wiki/Francis_Ford_Coppola" target="_blank">Francis Ford Coppola</a></p>
-                <p><b>Writers:</b> <a href="https://en.wikipedia.org/wiki/Mario_Puzo" target="_blank">Mario Puzo</a>, <a href="https://en.wikipedia.org/wiki/Francis_Ford_Coppola" target="_blank">Francis Ford Coppola</a></p>
-                <p><b>Stars:</b> <a href="https://en.wikipedia.org/wiki/Marlon_Brando" target="_blank">Marlon Brando</a>, <a href="https://en.wikipedia.org/wiki/Al_Pacino" target="_blank">Al Pacino</a>, <a href="https://en.wikipedia.org/wiki/James_Caan" target="_blank">James Caan</a></p>
-            </div>
-        </div>
+<a href="Movies Section/Movies.html">Movies</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-        <div class="card">
-            <img src="the_dark_knight_2.jpg" alt="The Dark Knight">
-            <div class="card-content">
-                <h3>The Dark Knight</h3>
-                <p><b>Trailer:</b> <a href="https://youtu.be/LDG9bisJEaI" target="_blank" class="button">Watch Here</a></p>
-                <p><b>Genre:</b> Action | Crime | Drama</p>
-                <p>When Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest tests of his ability to fight injustice.</p>
-                <p><b>Director:</b> <a href="https://en.wikipedia.org/wiki/Christopher_Nolan" target="_blank">Christopher Nolan</a></p>
-                <p><b>Writers:</b> <a href="https://en.wikipedia.org/wiki/Jonathan_Nolan" target="_blank">Jonathan Nolan</a>, <a href="https://en.wikipedia.org/wiki/Christopher_Nolan" target="_blank">Christopher Nolan</a>, <a href="https://en.wikipedia.org/wiki/David_S._Goyer" target="_blank">David S. Goyer</a></p>
-                <p><b>Stars:</b> <a href="https://en.wikipedia.org/wiki/Christian_Bale" target="_blank">Christian Bale</a>, <a href="https://en.wikipedia.org/wiki/Heath_Ledger" target="_blank">Heath Ledger</a>, <a href="https://en.wikipedia.org/wiki/Aaron_Eckhart" target="_blank">Aaron Eckhart</a></p>
-            </div>
-        </div>
+<a href="TV Shows/TV Shows.html">Web Series</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-        <div class="card">
-            <img src="rrr_2.jpg" alt="RRR">
-            <div class="card-content">
-                <h3>RRR</h3>
-                <p><b>Trailer:</b> <a href="https://youtu.be/GY4BgdUSpbE" target="_blank" class="button">Watch Here</a></p>
-                <p><b>Genre:</b> Action | Crime | Drama</p>
-                <p>A fictitious story about two legendary revolutionaries and their journey away from home before they started fighting for their country in the 1920s.</p>
-                <p><b>Director:</b> <a href="https://en.wikipedia.org/wiki/S._S._Rajamouli" target="_blank">S.S. Rajamouli</a></p>
-                <p><b>Writers:</b> <a href="https://en.wikipedia.org/wiki/K._V._Vijayendra_Prasad" target="_blank">K. V. Vijayendra Prasad</a>, <a href="https://en.wikipedia.org/wiki/Sai_Madhav_Burra" target="_blank">Sai Madhav Burra</a>, <a href="https://en.wikipedia.org/wiki/M._M._Keeravani" target="_blank">M. M. Keeravani</a></p>
-                <p><b>Stars:</b> <a href="https://en.wikipedia.org/wiki/N._T._Rama_Rao_Jr." target="_blank">N.T. Rama Rao Jr.</a>, <a href="https://en.wikipedia.org/wiki/Ram_Charan" target="_blank">Ram Charan</a>, <a href="https://en.wikipedia.org/wiki/Ajay_Devgn" target="_blank">Ajay Devgn</a></p>
-            </div>
-        </div>
+<a href="Watch/Watch.html">Watch</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-        <div class="card">
-            <img src="titanic_2.jpg" alt="Titanic">
-            <div class="card-content">
-                <h3>Titanic</h3>
-                <p><b>Trailer:</b> <a href="https://youtu.be/zCy5WQ9S4c0" target="_blank" class="button">Watch Here</a></p>
-                <p><b>Genre:</b> Drama | Romance</p>
-                <p>A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.</p>
-                <p><b>Director:</b> <a href="https://en.wikipedia.org/wiki/James_Cameron" target="_blank">James Cameron</a></p>
-                <p><b>Writers:</b> <a href="https://en.wikipedia.org/wiki/James_Cameron" target="_blank">James Cameron</a></p>
-                <p><b>Stars:</b> <a href="https://en.wikipedia.org/wiki/Leonardo_DiCaprio" target="_blank">Leonardo DiCaprio</a>, <a href="https://en.wikipedia.org/wiki/Kate_Winslet" target="_blank">Kate Winslet</a>, <a href="https://en.wikipedia.org/wiki/Billy_Zane" target="_blank">Billy Zane</a></p>
-            </div>
-        </div>
+<a href="Awards & Events/Awards & Events.html">Awards & Events</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-        <div class="card">
-            <img src="inception_2.jpg" alt="Inception">
-            <div class="card-content">
-                <h3>Inception</h3>
-                <p><b>Trailer:</b> <a href="https://youtu.be/YoHD9XEInc0" target="_blank" class="button">Watch Here</a></p>
-                <p><b>Genre:</b> Action | Adventure | Sci-Fi</p>
-                <p>A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.</p>
-                <p><b>Director:</b> <a href="https://en.wikipedia.org/wiki/Christopher_Nolan" target="_blank">Christopher Nolan</a></p>
-                <p><b>Writers:</b> <a href="https://en.wikipedia.org/wiki/Christopher_Nolan" target="_blank">Christopher Nolan</a></p>
-                <p><b>Stars:</b> <a href="https://en.wikipedia.org/wiki/Leonardo_DiCaprio" target="_blank">Leonardo DiCaprio</a>, <a href="https://en.wikipedia.org/wiki/Joseph_Gordon-Levitt" target="_blank">Joseph Gordon-Levitt</a>, <a href="https://en.wikipedia.org/wiki/Elliot_Page" target="_blank">Elliot Page</a></p>
-            </div>
-        </div>
+<a href="Celebs/Celebs.html">Celebs</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-        <div class="card">
-            <img src="fight_club_2.jpg" alt="Fight Club">
-            <div class="card-content">
-                <h3>Fight Club</h3>
-                <p><b>Trailer:</b> <a href="https://youtu.be/qtRKdVHc-cE" target="_blank" class="button">Watch Here</a></p>
-                <p><b>Genre:</b> Drama</p>
-                <p>An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.</p>
-                <p><b>Director:</b> <a href="https://en.wikipedia.org/wiki/David_Fincher" target="_blank">David Fincher</a></p>
-                <p><b>Writers:</b> <a href="https://en.wikipedia.org/wiki/Chuck_Palahniuk" target="_blank">Chuck Palahniuk</a>, <a href="https://en.wikipedia.org/wiki/Jim_Uhls" target="_blank">Jim Uhls</a></p>
-                <p><b>Stars:</b> <a href="https://en.wikipedia.org/wiki/Brad_Pitt" target="_blank">Brad Pitt</a>, <a href="https://en.wikipedia.org/wiki/Edward_Norton" target="_blank">Edward Norton</a>, <a href="https://en.wikipedia.org/wiki/Helena_Bonham_Carter" target="_blank">Helena Bonham Carter</a></p>
-            </div>
-        </div>
+<a href="Community/Community.html">Community</a>
+</font>
+</b>
+</div>
 
-        <div class="card">
-            <img src="the_lord_of_the_rings_2.jpg" alt="The Lord of the Rings: The Return of the King">
-            <div class="card-content">
-                <h3>The Lord of the Rings: The Return of the King</h3>
-                <p><b>Trailer:</b> <a href="https://youtu.be/r5X-hFf6Bwo" target="_blank" class="button">Watch Here</a></p>
-                <p><b>Genre:</b> Action | Adventure | Drama</p>
-                <p>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</p>
-                <p><b>Director:</b> <a href="https://en.wikipedia.org/wiki/Peter_Jackson" target="_blank">Peter Jackson</a></p>
-                <p><b>Writers:</b> <a href="https://en.wikipedia.org/wiki/J.R.R._Tolkien" target="_blank">J.R.R. Tolkien</a>, <a href="https://en.wikipedia.org/wiki/Fran_Walsh" target="_blank">Fran Walsh</a>, <a href="https://en.wikipedia.org/wiki/Philippa_Boyens" target="_blank">Philippa Boyens</a>, <a href="https://en.wikipedia.org/wiki/Peter_Jackson" target="_blank">Peter Jackson</a></p>
-                <p><b>Stars:</b> <a href="https://en.wikipedia.org/wiki/Elijah_Wood" target="_blank">Elijah Wood</a>, <a href="https://en.wikipedia.org/wiki/Viggo_Mortensen" target="_blank">Viggo Mortensen</a>, <a href="https://en.wikipedia.org/wiki/Ian_McKellen" target="_blank">Ian McKellen</a></p>
-            </div>
-        </div>
+<br><br><br>
 
-        <div class="card">
-            <img src="forest_gump_2.jpg" alt="Forrest Gump">
-            <div class="card-content">
-                <h3>Forrest Gump</h3>
-                <p><b>Trailer:</b> <a href="https://youtu.be/uPIEn0M8su0" target="_blank" class="button">Watch Here</a></p>
-                <p><b>Genre:</b> Drama | Romance</p>
-                <p>The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.</p>
-                <p><b>Director:</b> <a href="https://en.wikipedia.org/wiki/Robert_Zemeckis" target="_blank">Robert Zemeckis</a></p>
-                <p><b>Writers:</b> <a href="https://en.wikipedia.org/wiki/Winston_Groom" target="_blank">Winston Groom</a>, <a href="https://en.wikipedia.org/wiki/Eric_Roth" target="_blank">Eric Roth</a></p>
-                <p><b>Stars:</b> <a href="https://en.wikipedia.org/wiki/Tom_Hanks" target="_blank">Tom Hanks</a>, <a href="https://en.wikipedia.org/wiki/Robin_Wright" target="_blank">Robin Wright</a>, <a href="https://en.wikipedia.org/wiki/Gary_Sinise" target="_blank">Gary Sinise</a></p>
-            </div>
-        </div>
+<body style="background-color:black">
 
-        <div class="card">
-            <img src="the_lion_king_2.jpg" alt="The Lion King">
-            <div class="card-content">
-                <h3>The Lion King</h3>
-                <p><b>Trailer:</b> <a href="https://youtu.be/4sj1MT05lAA" target="_blank" class="button">Watch Here</a></p>
-                <p><b>Genre:</b> Animation | Adventure | Drama</p>
-                <p>After the murder of his father, a young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.</p>
-                <p><b>Director:</b> <a href="https://en.wikipedia.org/wiki/Roger_Allers" target="_blank">Roger Allers</a>, <a href="https://en.wikipedia.org/wiki/Rob_Minkoff" target="_blank">Rob Minkoff</a></p>
-                <p><b>Writers:</b> <a href="https://en.wikipedia.org/wiki/Irene_Mecchi" target="_blank">Irene Mecchi</a>, <a href="https://en.wikipedia.org/wiki/Jonathan_Roberts_(writer)" target="_blank">Jonathan Roberts</a>, <a href="https://en.wikipedia.org/wiki/Linda_Woolverton" target="_blank">Linda Woolverton</a></p>
-                <p><b>Stars:</b> <a href="https://en.wikipedia.org/wiki/Matthew_Broderick" target="_blank">Matthew Broderick</a>, <a href="https://en.wikipedia.org/wiki/Jeremy_Irons" target="_blank">Jeremy Irons</a>, <a href="https://en.wikipedia.org/wiki/James_Earl_Jones" target="_blank">James Earl Jones</a></p>
-            </div>
-        </div>
-    </div>
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>The Shawshank Redemption</th>
+<tr><td><center><img src="the_shawshank_redemption_2.jpg" width="100" height="160"></img></center></td></tr>
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/PLl99DlL6b4"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Drama
+<hr>
+</td></tr>
+
+<tr><td>
+Two imprisoned men bond over a number<br>
+of years, finding solace and eventual redemption<br>
+through acts of common decency.
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/Frank_Darabont">Frank Darabont</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Frank_Darabont">Stephen King  |  </a>
+<a href="https://en.wikipedia.org/wiki/Stephen_King">Frank Darabont</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Tim_Robbins">Tim Robbins  |  </a>
+<a href="https://en.wikipedia.org/wiki/Morgan_Freeman">Morgan Freeman  |  </a>
+<a href="https://en.wikipedia.org/wiki/Bob_Gunton"> Bob Gunton</a>
+<hr>
+</td></tr>
+
+</table>
+
+
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>The Godfather</th>
+
+<tr><td><center><img src="the_godfather_2.jpg" width="100" height="160"></img></center></td></tr>
+
+<tr><td>
+<b>Trailer : </b>
+<a target=new  href="https://youtu.be/UaVTIH8mujA"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Crime  |  Drama
+<hr>
+</td></tr>
+
+<tr><td>
+The aging patriarch of an organized crime dynasty<br>
+in postwar New York City transfers control of his<br>
+clandestine empire to his reluctant youngest son.
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/Francis_Ford_Coppola">Ford Coppola</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Mario_Puzo">Mario Puzo  |  </a>
+<a href="https://en.wikipedia.org/wiki/Francis_Ford_Coppola">Ford Coppola</a>
+<hr>
+</td></tr>
+
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Marlon_Brando">Marlon Brando  |  </a>
+<a href="https://en.wikipedia.org/wiki/Al_Pacino">Al Pacino  |  </a>
+<a href="https://en.wikipedia.org/wiki/James_Caan"> James Caan</a>
+<hr>
+</td></tr>
+
+</table>
+
+
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>The Dark Knight</th>
+
+<tr><td><center><img src="the_dark_knight_2.jpg" width="100" height="160"></img></center></td></tr>
+
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/LDG9bisJEaI"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Action |  Crime  |  Drama
+<hr>
+</td></tr>
+
+<tr><td>
+
+When Joker wreaks havoc and chaos<br> on the people of Gotham, Batman must<br>
+accept one of the greatest tests<br>
+of his ability to fight injustice.
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/Christopher_Nolan">Christopher Nolan</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+
+<a href="https://en.wikipedia.org/wiki/Jonathan_Nolan">Jonathan Nolan  |  </a>
+<a href="https://en.wikipedia.org/wiki/Christopher_Nolan">Christopher Nolan  |  </a>
+<a href="https://en.wikipedia.org/wiki/David_S._Goyer">David S. Goyer  |  </a>
+<hr>
+</td></tr>
+
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Christian_Bale">Christian Bale  |  </a>
+<a href="https://en.wikipedia.org/wiki/Heath_Ledger">Heath Ledger  |  </a>
+<a href="https://en.wikipedia.org/wiki/Aaron_Eckhart">Aaron Eckhart</a>
+</td></tr>
+
+</table>
+
+
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>RRR</th>
+
+<tr><td><center><img src="rrr_2.jpg" width="100" height="160"></img></center></td></tr>
+
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/GY4BgdUSpbE"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Action |  Crime  |  Drama
+<hr>
+</td></tr>
+
+<tr><td>
+
+A fictitious story about two legendary<br>
+revolutionaries and their journey away<br>
+from home before they started fighting for<br>
+their country in 1920's.
+
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/S._S._Rajamouli">S.S. Rajamouli</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+
+<a href="https://en.wikipedia.org/wiki/K._V._Vijayendra_Prasad">K. V. Vijayendra Prasad  |  </a>
+<a href="https://en.wikipedia.org/wiki/Sai_Madhav_Burra">Sai Madhav Burra  |  </a>
+<a href="https://en.wikipedia.org/wiki/Madhan_Karky">Madhan_Karky</a>
+<hr>
+</td></tr>
+
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/N._T._Rama_Rao_Jr.">N.T. Rama Rao Jr.  |  </a>
+<a href="https://en.wikipedia.org/wiki/Ram_Charan">Ram Charan</a>
+</td></tr>
+
+</table>
+<br>
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>Spider Man : No Way Home</th>
+<tr><td><center><img src="spider-man-no-way-home_2.jpg" width="100" height="160"></img></center></td></tr>
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/PLl99DlL6b4"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Drama
+<hr>
+</td></tr>
+
+<tr><td>
+Two imprisoned men bond over a number<br>
+of years, finding solace and eventual redemption<br>
+through acts of common decency.
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/Frank_Darabont">Frank Darabont</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Frank_Darabont">Stephen King  |  </a>
+<a href="https://en.wikipedia.org/wiki/Stephen_King">Frank Darabont</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Tim_Robbins">Tim Robbins  |  </a>
+<a href="https://en.wikipedia.org/wiki/Morgan_Freeman">Morgan Freeman  |  </a>
+<a href="https://en.wikipedia.org/wiki/Bob_Gunton"> Bob Gunton</a>
+<hr>
+</td></tr>
+
+</table>
+
+
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>The Batman</th>
+
+<tr><td><center><img src="the_batman_2.jpg" width="100" height="160"></img></center></td></tr>
+
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/UaVTIH8mujA"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Crime  |  Drama
+<hr>
+</td></tr>
+
+<tr><td>
+The aging patriarch of an organized crime dynasty<br>
+in postwar New York City transfers control of his<br>
+clandestine empire to his reluctant youngest son.
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/Francis_Ford_Coppola">Ford Coppola</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Mario_Puzo">Mario Puzo  |  </a>
+<a href="https://en.wikipedia.org/wiki/Francis_Ford_Coppola">Ford Coppola</a>
+<hr>
+</td></tr>
+
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Marlon_Brando">Marlon Brando  |  </a>
+<a href="https://en.wikipedia.org/wiki/Al_Pacino">Al Pacino  |  </a>
+<a href="https://en.wikipedia.org/wiki/James_Caan"> James Caan</a>
+<hr>
+</td></tr>
+
+</table>
+
+
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>Joker</th>
+
+<tr><td><center><img src="joker_2.jpg" width="100" height="160"></img></center></td></tr>
+
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/LDG9bisJEaI"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Action |  Crime  |  Drama
+<hr>
+</td></tr>
+
+<tr><td>
+
+When Joker wreaks havoc and chaos<br> on the people of Gotham, Batman must<br>
+accept one of the greatest tests<br>
+of his ability to fight injustice.
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/Christopher_Nolan">Christopher Nolan</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+
+<a href="https://en.wikipedia.org/wiki/Jonathan_Nolan">Jonathan Nolan  |  </a>
+<a href="https://en.wikipedia.org/wiki/Christopher_Nolan">Christopher Nolan  |  </a>
+<a href="https://en.wikipedia.org/wiki/David_S._Goyer">David S. Goyer  |  </a>
+<hr>
+</td></tr>
+
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Christian_Bale">Christian Bale  |  </a>
+<a href="https://en.wikipedia.org/wiki/Heath_Ledger">Heath Ledger  |  </a>
+<a href="https://en.wikipedia.org/wiki/Aaron_Eckhart">Aaron Eckhart</a>
+</td></tr>
+
+</table>
+
+
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>Interstellar</th>
+
+<tr><td><center><img src="interstellar_1.jpg" width="100" height="160"></img></center></td></tr>
+
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/GY4BgdUSpbE"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Action |  Crime  |  Drama
+<hr>
+</td></tr>
+
+<tr><td>
+
+A fictitious story about two legendary<br>
+revolutionaries and their journey away<br>
+from home before they started fighting for<br>
+their country in 1920's.
+
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/S._S._Rajamouli">S.S. Rajamouli</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+
+<a href="https://en.wikipedia.org/wiki/K._V._Vijayendra_Prasad">K. V. Vijayendra Prasad  |  </a>
+<a href="https://en.wikipedia.org/wiki/Sai_Madhav_Burra">Sai Madhav Burra  |  </a>
+<a href="https://en.wikipedia.org/wiki/Madhan_Karky">Madhan_Karky</a>
+<hr>
+</td></tr>
+
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/N._T._Rama_Rao_Jr.">N.T. Rama Rao Jr.  |  </a>
+<a href="https://en.wikipedia.org/wiki/Ram_Charan">Ram Charan</a>
+</td></tr>
+
+</table>
+
+<body style="background-color:black">
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>The Shawshank Redemption</th>
+<tr><td><center><img src="the_shawshank_redemption_2.jpg" width="100" height="160"></img></center></td></tr>
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/PLl99DlL6b4"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Drama
+<hr>
+</td></tr>
+
+<tr><td>
+Two imprisoned men bond over a number<br>
+of years, finding solace and eventual redemption<br>
+through acts of common decency.
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/Frank_Darabont">Frank Darabont</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Frank_Darabont">Stephen King  |  </a>
+<a href="https://en.wikipedia.org/wiki/Stephen_King">Frank Darabont</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Tim_Robbins">Tim Robbins  |  </a>
+<a href="https://en.wikipedia.org/wiki/Morgan_Freeman">Morgan Freeman  |  </a>
+<a href="https://en.wikipedia.org/wiki/Bob_Gunton"> Bob Gunton</a>
+<hr>
+</td></tr>
+
+</table>
+
+
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>The Godfather</th>
+
+<tr><td><center><img src="the_godfather_2.jpg" width="100" height="160"></img></center></td></tr>
+
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/UaVTIH8mujA"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Crime  |  Drama
+<hr>
+</td></tr>
+
+<tr><td>
+The aging patriarch of an organized crime dynasty<br>
+in postwar New York City transfers control of his<br>
+clandestine empire to his reluctant youngest son.
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/Francis_Ford_Coppola">Ford Coppola</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Mario_Puzo">Mario Puzo  |  </a>
+<a href="https://en.wikipedia.org/wiki/Francis_Ford_Coppola">Ford Coppola</a>
+<hr>
+</td></tr>
+
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Marlon_Brando">Marlon Brando  |  </a>
+<a href="https://en.wikipedia.org/wiki/Al_Pacino">Al Pacino  |  </a>
+<a href="https://en.wikipedia.org/wiki/James_Caan"> James Caan</a>
+<hr>
+</td></tr>
+
+</table>
+
+
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>The Dark Knight</th>
+
+<tr><td><center><img src="the_dark_knight_2.jpg" width="100" height="160"></img></center></td></tr>
+
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/LDG9bisJEaI"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Action |  Crime  |  Drama
+<hr>
+</td></tr>
+
+<tr><td>
+
+When Joker wreaks havoc and chaos<br> on the people of Gotham, Batman must<br>
+accept one of the greatest tests<br>
+of his ability to fight injustice.
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/Christopher_Nolan">Christopher Nolan</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+
+<a href="https://en.wikipedia.org/wiki/Jonathan_Nolan">Jonathan Nolan  |  </a>
+<a href="https://en.wikipedia.org/wiki/Christopher_Nolan">Christopher Nolan  |  </a>
+<a href="https://en.wikipedia.org/wiki/David_S._Goyer">David S. Goyer  |  </a>
+<hr>
+</td></tr>
+
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Christian_Bale">Christian Bale  |  </a>
+<a href="https://en.wikipedia.org/wiki/Heath_Ledger">Heath Ledger  |  </a>
+<a href="https://en.wikipedia.org/wiki/Aaron_Eckhart">Aaron Eckhart</a>
+</td></tr>
+
+</table>
+
+
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>RRR</th>
+
+<tr><td><center><img src="rrr_2.jpg" width="100" height="160"></img></center></td></tr>
+
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/GY4BgdUSpbE"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Action |  Crime  |  Drama
+<hr>
+</td></tr>
+
+<tr><td>
+
+A fictitious story about two legendary<br>
+revolutionaries and their journey away<br>
+from home before they started fighting for<br>
+their country in 1920's.
+
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/S._S._Rajamouli">S.S. Rajamouli</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+
+<a href="https://en.wikipedia.org/wiki/K._V._Vijayendra_Prasad">K. V. Vijayendra Prasad  |  </a>
+<a href="https://en.wikipedia.org/wiki/Sai_Madhav_Burra">Sai Madhav Burra  |  </a>
+<a href="https://en.wikipedia.org/wiki/Madhan_Karky">Madhan_Karky</a>
+<hr>
+</td></tr>
+
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/N._T._Rama_Rao_Jr.">N.T. Rama Rao Jr.  |  </a>
+<a href="https://en.wikipedia.org/wiki/Ram_Charan">Ram Charan</a>
+</td></tr>
+
+</table>
+<br>
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>Spider Man : No Way Home</th>
+<tr><td><center><img src="spider-man-no-way-home_2.jpg" width="100" height="160"></img></center></td></tr>
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/PLl99DlL6b4"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Drama
+<hr>
+</td></tr>
+
+<tr><td>
+Two imprisoned men bond over a number<br>
+of years, finding solace and eventual redemption<br>
+through acts of common decency.
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/Frank_Darabont">Frank Darabont</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Frank_Darabont">Stephen King  |  </a>
+<a href="https://en.wikipedia.org/wiki/Stephen_King">Frank Darabont</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Tim_Robbins">Tim Robbins  |  </a>
+<a href="https://en.wikipedia.org/wiki/Morgan_Freeman">Morgan Freeman  |  </a>
+<a href="https://en.wikipedia.org/wiki/Bob_Gunton"> Bob Gunton</a>
+<hr>
+</td></tr>
+
+</table>
+
+
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>The Batman</th>
+
+<tr><td><center><img src="the_batman_2.jpg" width="100" height="160"></img></center></td></tr>
+
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/UaVTIH8mujA"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Crime  |  Drama
+<hr>
+</td></tr>
+
+<tr><td>
+The aging patriarch of an organized crime dynasty<br>
+in postwar New York City transfers control of his<br>
+clandestine empire to his reluctant youngest son.
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/Francis_Ford_Coppola">Ford Coppola</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Mario_Puzo">Mario Puzo  |  </a>
+<a href="https://en.wikipedia.org/wiki/Francis_Ford_Coppola">Ford Coppola</a>
+<hr>
+</td></tr>
+
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Marlon_Brando">Marlon Brando  |  </a>
+<a href="https://en.wikipedia.org/wiki/Al_Pacino">Al Pacino  |  </a>
+<a href="https://en.wikipedia.org/wiki/James_Caan"> James Caan</a>
+<hr>
+</td></tr>
+
+</table>
+
+
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>Joker</th>
+
+<tr><td><center><img src="joker_2.jpg" width="100" height="160"></img></center></td></tr>
+
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/LDG9bisJEaI"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Action |  Crime  |  Drama
+<hr>
+</td></tr>
+
+<tr><td>
+
+When Joker wreaks havoc and chaos<br> on the people of Gotham, Batman must<br>
+accept one of the greatest tests<br>
+of his ability to fight injustice.
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/Christopher_Nolan">Christopher Nolan</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+
+<a href="https://en.wikipedia.org/wiki/Jonathan_Nolan">Jonathan Nolan  |  </a>
+<a href="https://en.wikipedia.org/wiki/Christopher_Nolan">Christopher Nolan  |  </a>
+<a href="https://en.wikipedia.org/wiki/David_S._Goyer">David S. Goyer  |  </a>
+<hr>
+</td></tr>
+
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/Christian_Bale">Christian Bale  |  </a>
+<a href="https://en.wikipedia.org/wiki/Heath_Ledger">Heath Ledger  |  </a>
+<a href="https://en.wikipedia.org/wiki/Aaron_Eckhart">Aaron Eckhart</a>
+</td></tr>
+
+</table>
+
+
+
+
+
+<table bordercolor="black" bgcolor="white" align="left">
+
+<th>Interstellar</th>
+
+<tr><td><center><img src="interstellar_1.jpg" width="100" height="160"></img></center></td></tr>
+
+<tr><td>
+<b>Trailer : </b>
+<a href="https://youtu.be/GY4BgdUSpbE"><input type="button" value="Watch Here"></a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Genre : </b>Action |  Crime  |  Drama
+<hr>
+</td></tr>
+
+<tr><td>
+
+A fictitious story about two legendary<br>
+revolutionaries and their journey away<br>
+from home before they started fighting for<br>
+their country in 1920's.
+
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Director : </b>
+<a href="https://en.wikipedia.org/wiki/S._S._Rajamouli">S.S. Rajamouli</a>
+<hr>
+</td></tr>
+
+<tr><td>
+<b>Writers : </b>
+<br>
+
+<a href="https://en.wikipedia.org/wiki/K._V._Vijayendra_Prasad">K. V. Vijayendra Prasad  |  </a>
+<a href="https://en.wikipedia.org/wiki/Sai_Madhav_Burra">Sai Madhav Burra  |  </a>
+<a href="https://en.wikipedia.org/wiki/Madhan_Karky">Madhan_Karky</a>
+<hr>
+</td></tr>
+
+
+<tr><td>
+<b>Stars : </b>
+<br>
+<a href="https://en.wikipedia.org/wiki/N._T._Rama_Rao_Jr.">N.T. Rama Rao Jr.  |  </a>
+<a href="https://en.wikipedia.org/wiki/Ram_Charan">Ram Charan</a>
+</td></tr>
+
+</table>
+
 </body>
 </html>
