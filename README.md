@@ -65,4 +65,21 @@ Bingeverse is a comprehensive web project that showcases a variety of multimedia
 
 <br>
 
+## Tech Stack
+
+Built with plain **HTML** and **inline CSS** (no frameworks, no build step) and deployed on **GitHub Pages**.
+
+## License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+> Code is MIT-licensed. Movie/TV posters, trailers, and celebrity content are the
+> property of their respective owners and are used here for educational/demo purposes only.
+
+## About
+
+Built as a second-semester web development college assignment - my first web project.
+
+<br>
+
 **Enjoy using Bingeverse and exploring its features!**
